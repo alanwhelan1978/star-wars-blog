@@ -63,7 +63,7 @@ body {
 
 .masthead-text {
     background-color: #445261;
-    color: white;
+    color: rgb(12, 0, 0);
     position: relative;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #010c0c;
     color: #fff;
 }
 
