@@ -4,10 +4,11 @@ from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
 
+
 class Landing(View):
-    
+
     def get(self, request):
-        return render(request,"landing.html")
+        return render(request, "landing.html")
 
 
 class PostList(generic.ListView):
@@ -37,7 +38,7 @@ class PostDetail(View):
                 "liked": liked,
                 "comment_form": CommentForm()
             },
-        ) 
+        )
         
     def post(self, request, slug, *args, **kwargs):
 
