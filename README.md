@@ -161,26 +161,9 @@ l Booking](documentation/supp-images/f09-cancel-booking.png)
 
 ## Design
 
--   ### Wireframes
+-   ### Template
 
-    The wireframe diagrams below describe the Home, Post Detail, Sign in, Sign out and Register pages.  Wireframes are not provided for the Django Admin pages used by the application to create data records, publish hike data, approve comments and bookings.
-
-    <details>
-    <summary>Desktop Wireframes</summary>
-
-    ![Desktop Wireframes]()
-    </details>
-    <details>
-    <summary>Tablet Wireframes</summary>
-
-    ![Tablet Wireframes]()
-    </details>
-    <details>
-    <summary>Smartphone Wireframes</summary>
-
-    ![Smartphone Wireframes]()
-    </details>
-
+    I used the 2 templates to design the site, first one was from the Django plug in this was for all pages excluding the landing page for the landing page I used (https://startbootstrap.com/theme/one-page-wonder)
 
 ## Planning
 
@@ -213,6 +196,8 @@ A GitHub Project with linked Issues was used as the Agile tool for this project.
 -   [Django testing tools](https://docs.djangoproject.com/en/3.2/topics/testing/tools/) used for python mvt testing
 
 ## Testing
+
+To check the site was working I used manual testing and sent app out to friends who all logged in succesfully on different devices and were able to login and read, navigate, comment and like the posts.
 
 ### Validator Testing 
 
