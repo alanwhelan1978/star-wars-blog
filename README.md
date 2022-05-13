@@ -219,11 +219,7 @@ To check the site was working I used manual testing and sent app out to friends 
     - Google Chrome version 9.0.4606.81 (64-bit)
     - Firefox version 93.0 (64-bit)
     - Microsoft Edge 94.0.992.38 (64-bit)
- 
-    
-### Manual Testing Test Cases and Results
-
-- 
+  
 
 ### Known bugs
 
