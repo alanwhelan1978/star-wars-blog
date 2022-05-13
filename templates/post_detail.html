@@ -13,9 +13,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="https://www.denofgeek.com/wp-content/uploads/2019/09/star-wars-feature-image.jpg" width="100%">
+                <img src="https://www.denofgeek.com/wp-content/uploads/2019/09/star-wars-feature-image.jpg" alt="Blog Image" width="100%">
                 {% else %}
-                <img src=" {{ post.featured_image.url }}" width="100%">
+                <img src=" {{ post.featured_image.url }}" alt ="Blog Image" width="100%">
                 {% endif %}
             </div>
         </div>
