@@ -137,7 +137,7 @@ l Booking](documentation/supp-images/f09-cancel-booking.png)
 
         ![Sign out User]()
 
--   __F8 Add and Publish a Posr__
+-   __F8 Add and Publish a Post__
     
     The admin user adds and publishes post using the admin pages.  The admin user can access these pages either by appending '/admin' to the application url or by signing in to the application and clicking on the Admin link that appears on the navigation bar only when admin is signed in.
 

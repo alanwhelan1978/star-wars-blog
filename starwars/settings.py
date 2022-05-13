@@ -128,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 
+        'NAME':
         'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
