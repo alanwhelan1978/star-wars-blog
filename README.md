@@ -180,6 +180,7 @@ A GitHub Project with linked Issues was used as the Agile tool for this project.
 
 * To check the site was working I used manual testing and sent app out to friends who all logged in succesfully on different devices and were able to login and read, navigate, comment and like the posts.
 * After compeleting each task in the user stories I checked on serveral devices to see if the site was working and what I expected to happen as a user happened. This lead to changes having to me made to ensure it worked as I expected.
+* As I used the templates from "I think therefore I Blog" not automated testing was required.
 
 ### Validator Testing 
 
