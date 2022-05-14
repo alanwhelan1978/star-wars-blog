@@ -2,9 +2,9 @@
 
 [View the live project here](https://star-wars-alan.herokuapp.com/)
 
-The Star wars Blog contains an application is a website / blog that gives details on Star Wars
+The Star wars Blog contains an application is a website / blog that gives details on Star Wars.
 
-General users can view details on the blog. Users can also register with the website and sign in - allowing them to then comment on and like the information provded.
+General users can view details on the blog which is their landing page. However users can also register with the website and sign in this brings them to the landing homepage unregistered users are brought to the main blog page. - Once a user is signed in this allows them to then comment on and like the information provded.
 
 The admin user of the site can add new blog info, approve general user comments and assign different roles to user who register.
 
