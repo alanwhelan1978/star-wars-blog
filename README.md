@@ -24,46 +24,27 @@ The admin user of the site can add new blog info, approve general user comments 
 
 ### User stories :
 
-* US01: Illustrate purpose of application through UI
-  - As a **Site User** I can **view the landing page** so that **I can determine the purpose of the application**
-* US02: Navigate site
-  - As a **Site User** I can **navigate using the menu** so that **I can easily access application functionality**
-* US03: View hike/excursion list
-  - As a **Site User** I can **view a list of hikes/excursions** so that **I can select one to access more details**
-* US04: View hike information
-  - As a **Site User** I can **click on a Hike** so that **I can view its full details**
-* US05: Book a hike
-  - As a **Site User** I can **book a scheduled hike** so that **a place is reserved for me**
-* US06: View booked hikes
-  - As a **Site User** I can **access a list of hikes I have booked** so that **I can see an itinerary of hikes**
-* US07: Cancel a hike booking
-  - As a **Site User** I can **cancel a hike I have booked** so that **a place is no longer reserved for me**
-* US08: View likes
-  - As a **Site User** I can **view the number of likes on each hike** so that **I can see which are most popular**
-* US09: Like / Unlike a hike
-  - As a **Site User** I can **like or unlike a hike** so that **I can give feedback on my experience**
-* US10: Comment on hike
-  - As a **Site User** I can **attach comments to a hike** so that **I can give feedback and be involved in the conversation**
-* US11: View comments
-  - As a **Site User** I can **view comments on individual hikes** so that **feedback can be recorded to help identify any improvements needed or any aspects that worked well**
-* US12: Approve comments
-  - As a **Site Admin** I can **review and then approve or disapprove comments** so that **unsuitable or objectionable content can be filtered out**
-* US13: Account registration and login
-  - As a **Site User** I can **register an account** so that **I can log in and then book a hike, comment on hikes, like hikes**
-* US14: Manage hikes
-  - As a **Site Admin** I can **create, read, update and delete hikes and associated hike schedules** so that **I can manage site content and hike availability**
-* US15: Create hike drafts
-  - As a **Site Admin** I can **create draft hikes** so that **I can finish writing the content later and release once approved**
-* US16 Approve Bookings
-  - As a **Site Admin** I can **review and then approve or disapprove bookings** so that **group size for hikes can be managed**
-* US17 View past hikes
-  - As a **Site User** I can **access a list of hikes in that past that I booked** so that **I can see hikes I have previously done**
+* View a post: As a Site User I can view a list of posts so that I can select one to read.
+* Open a post: As a Site User I can click on a post so that I can read the full text.
+* View likes: As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral.
+* View comments: As a Site User / Admin I can view comments on an individual post so that I can read the conversation.
+* Site pagination: As a site user I can view a paginated list of posts, so that the benefit is I can select which post I want to view.
+* Account registration: As a Site User I can register an account so that I can comment and like.
+* Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation.
+* Like / Unlike: As a Site User I can like or unlike a post so that I can interact with the content.
+* Manage a post: As a Site Admin I can create, read, update and delete posts so that I can manage my blog content.
+* Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later.
+* Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments.
+* View landing page: As a Site User I can view a landing page so that I can see what the blog is about.
+
+
+
 
 ## Features
 
 ### Existing Features
 
--   __F01 Navigation Bar__
+-   __Navigation Bar__
     
     The navigation bar has a consistent look and placement each page supporting easy and intuitive navigation.  It includes a Logo, and a link to the Home page. If the user is not signed in then links are available to the Register and Sign in pages.  If a user is signed in then the links available, in addition to the Home link, Blog and Sign out.
     
@@ -76,25 +57,25 @@ The admin user of the site can add new blog info, approve general user comments 
     ![Navbar Burger]()
 
 
--   __F02 Landing page image and text__
+-   __Landing page image and text__
     
     At the top of the landing page (home page) there is an area that includes a design and a text overlay which together clearly identify the purpose of the site as a blog for all things Star Wars.
 
     ![Landing Area]()
 
--   __F03 Blog Post__
+-   __Blog Post__
     
     On the Blog page a list of posts are shown.  Each post gives an image, a title, details on the post, number of likes. At a glance the user can decide quickly if this is a post that might appeal to them.  To keep the page uncluttered, summaries are limited to a maximum of 6 per page, with pagination available when more than 6 posts exist.
     
     ![Blog Summaries]()
 
--   __F04 Post Detail Page__
+-   __Post Detail Page__
     
     When a user clicks on a post summary title on the blog page they are brought to the Post Detail page for the clicked post.  Here the user is shown a full description of the post, information on when the post details were created and last edited, the number of likes, number of comments and they can read all of the comments approved for the post which are listed in order most recent first.  Only users who are signed in can comment on a post or 'like' a post.  
 
     ![Post Detail]()
 
--   __F05 Comment on post__
+-   __Comment on post__
     
     In order to comment on a post a user must be signed in.  A comment can be added on any Post Detail page.  The user enters their comment in a text box under the post and clicks on Submit.  The comment must be approved by the admin user before it will be visible on the Hike Detail page.  
     
@@ -106,14 +87,14 @@ The admin user of the site can add new blog info, approve general user comments 
 
     ![Approve Post Comment]()
 
--   __F06 Like a post__
+-   __Like a post__
     In order to like a post a user must be signed in.  A post can be liked on its Post Detail page. The user simply needs to click on the like/heart icon to toggle between like/unlike.
 
     ![Like Post]()
 
 l Booking](documentation/supp-images/f09-cancel-booking.png)
 
--   __F7 User authentication__
+-   __User authentication__
     
     The application provides the following user authentication related functions :
 
@@ -137,7 +118,7 @@ l Booking](documentation/supp-images/f09-cancel-booking.png)
 
         ![Sign out User]()
 
--   __F8 Add and Publish a Post__
+-   __Add and Publish a Post__
     
     The admin user adds and publishes post using the admin pages.  The admin user can access these pages either by appending '/admin' to the application url or by signing in to the application and clicking on the Admin link that appears on the navigation bar only when admin is signed in.
 
@@ -145,7 +126,7 @@ l Booking](documentation/supp-images/f09-cancel-booking.png)
 
     ![Add a post]()
 
--   __F9 On-screen messages__
+-   __On-screen messages__
     
     To enhance usability of the application, user messages appear on-screen to confirm when certain actions have happened or report on problems.  For successful operations, a message will appear at the top of the screen and then fade-out/slide-up after few seconds.  For problems logging in, messages will appear in red text on-screen and stay until a user attempts the operation again.
 
@@ -197,7 +178,8 @@ A GitHub Project with linked Issues was used as the Agile tool for this project.
 
 ## Testing
 
-To check the site was working I used manual testing and sent app out to friends who all logged in succesfully on different devices and were able to login and read, navigate, comment and like the posts.
+* To check the site was working I used manual testing and sent app out to friends who all logged in succesfully on different devices and were able to login and read, navigate, comment and like the posts.
+* After compeleting each task in the user stories I checked on serveral devices to see if the site was working and what I expected to happen as a user happened. This lead to changes having to me made to ensure it worked as I expected.
 
 ### Validator Testing 
 
