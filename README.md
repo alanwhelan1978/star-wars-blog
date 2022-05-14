@@ -52,7 +52,7 @@ The admin user of the site can add new blog info, approve general user comments 
     
     The navigation bar is responsive on multiple screen sizes - on smaller screens it coverts to a 'burger' menu style.  
     
-    ![Navbar Full]()
+    ![Navbar Full](/workspace/star-wars-blog/media/nav-bar.PNG)
     ![Navbar Full Signed in]()
     ![Navbar Burger]()
 
@@ -67,7 +67,7 @@ The admin user of the site can add new blog info, approve general user comments 
     
     On the Blog page a list of posts are shown.  Each post gives an image, a title, details on the post, number of likes. At a glance the user can decide quickly if this is a post that might appeal to them.  To keep the page uncluttered, summaries are limited to a maximum of 6 per page, with pagination available when more than 6 posts exist.
     
-    ![Blog Summaries]()
+    ![Blog Summaries](static/images/blog-summary.PNG)
 
 -   __Post Detail Page__
     
@@ -85,14 +85,12 @@ The admin user of the site can add new blog info, approve general user comments 
 
     ![Post Comment]()
 
-    ![Approve Post Comment]()
-
--   __Like a post__
+    -   __Like a post__
     In order to like a post a user must be signed in.  A post can be liked on its Post Detail page. The user simply needs to click on the like/heart icon to toggle between like/unlike.
 
     ![Like Post]()
 
-l Booking](documentation/supp-images/f09-cancel-booking.png)
+
 
 -   __User authentication__
     
@@ -124,15 +122,9 @@ l Booking](documentation/supp-images/f09-cancel-booking.png)
 
     To add a new post, the admin user can use the "+ Add" link to the right of the post table name and then fill in the data fields for the post.  Post titles must be unique and a slug will be automatically generated as the title is typed in.   A rich editor (summernote) is made available for the post description content field so that formatting can be easily added. A default image will be used for the post if the admin user does not upload one.  Posts can be saved with a status of Draft (default) and will not be visible to general users until this status is updated to Published - this allows the admin to save a post and finish it later.
 
-    ![Add a post]()
-
--   __On-screen messages__
+   -   __On-screen messages__
     
     To enhance usability of the application, user messages appear on-screen to confirm when certain actions have happened or report on problems.  For successful operations, a message will appear at the top of the screen and then fade-out/slide-up after few seconds.  For problems logging in, messages will appear in red text on-screen and stay until a user attempts the operation again.
-
-    ![Message example 1]()
-
-    ![Message example 2]()
 
 
 -   __How these features support the user stories__
