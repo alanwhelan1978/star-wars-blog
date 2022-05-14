@@ -8,7 +8,7 @@ General users can view details on the blog. Users can also register with the web
 
 The admin user of the site can add new blog info, approve general user comments and assign different roles to user who register.
 
-![Mockup]()
+![Mockup](static/images/mockup.PNG)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -52,16 +52,16 @@ The admin user of the site can add new blog info, approve general user comments 
     
     The navigation bar is responsive on multiple screen sizes - on smaller screens it coverts to a 'burger' menu style.  
     
-    ![Navbar Full](/workspace/star-wars-blog/media/nav-bar.PNG)
-    ![Navbar Full Signed in]()
-    ![Navbar Burger]()
+    ![Navbar Full](static/images/nav-bar.PNG)
+    ![Navbar Full Signed in](static/images/navbar-logged.PNG)
+    ![Navbar Burger](static/images/nav-burger.PNG)
 
 
 -   __Landing page image and text__
     
     At the top of the landing page (home page) there is an area that includes a design and a text overlay which together clearly identify the purpose of the site as a blog for all things Star Wars.
 
-    ![Landing Area]()
+    ![Landing Area](static/images/mockup.PNG)
 
 -   __Blog Post__
     
@@ -73,7 +73,7 @@ The admin user of the site can add new blog info, approve general user comments 
     
     When a user clicks on a post summary title on the blog page they are brought to the Post Detail page for the clicked post.  Here the user is shown a full description of the post, information on when the post details were created and last edited, the number of likes, number of comments and they can read all of the comments approved for the post which are listed in order most recent first.  Only users who are signed in can comment on a post or 'like' a post.  
 
-    ![Post Detail]()
+    ![Post Detail](static/images/post-detail.PNG)
 
 -   __Comment on post__
     
@@ -83,12 +83,12 @@ The admin user of the site can add new blog info, approve general user comments 
     
     All comments approved for a post are shown on that post's Post Detail page in the order of newest first.
 
-    ![Post Comment]()
+    ![Post Comment](static/images/post-detail.PNG)
 
     -   __Like a post__
     In order to like a post a user must be signed in.  A post can be liked on its Post Detail page. The user simply needs to click on the like/heart icon to toggle between like/unlike.
 
-    ![Like Post]()
+    ![Like Post](static/images/post-detail.PNG)
 
 
 
@@ -99,7 +99,7 @@ The admin user of the site can add new blog info, approve general user comments 
     - User Registration
       - A user needs to be registered before they can sign in.  The option to Register appears on the navigation bar when no user is currently signed in.  To Register, the user needs to provide a) a username which has not already been registered, b) an optional email address (if this is provided then it needs to be an email address that is not already registered) and c) a password which they must enter twice.  Once registered a user can sign in.
 
-        ![Register User]()
+        ![Register User](static/images/register.PNG)
 
     - User Sign in
       - Once registered a user can sign in and will have access to extra functionality, namely :
@@ -109,12 +109,12 @@ The admin user of the site can add new blog info, approve general user comments 
 
       - To sign in the user must provide a) a registered username and b) the password for the username
      
-        ![Sign in User]()
+        ![Sign in User](static/images/navbar-logged.PNG)
       
     - User Sign out
       - A signed in user can sign out by clicking on the Sign out link on the navigation bar.  The user simply needs to confirm the action by clicking on the Sign out button on the page.
 
-        ![Sign out User]()
+        ![Sign out User](static/images/sign-out.PNG)
 
 -   __Add and Publish a Post__
     
